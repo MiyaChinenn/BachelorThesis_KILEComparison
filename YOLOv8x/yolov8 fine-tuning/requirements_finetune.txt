@@ -1,0 +1,22 @@
+# Concentrix Fine-tuning Requirements
+# ==================================
+
+# 1. Core ML Frameworks (Match your CUDA version if possible)
+# For a 40GB GPU (likely A100 or 3090/4090), use CUDA 11.8 or 12.1
+torch>=2.1.0
+torchvision>=0.16.0
+
+# 2. YOLOv8 Implementation
+ultralytics>=8.0.0
+
+# 3. OCR and PDF Support
+paddleocr>=2.7.0
+PyMuPDF>=1.23.0
+paddlepaddle-gpu>=2.5.0
+
+# 4. Utilities
+numpy>=1.23.0
+opencv-python>=4.7.0
+Pillow>=9.0.0
+tqdm>=4.64.0
+pyyaml>=6.0

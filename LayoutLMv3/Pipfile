@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+label-studio = "*"
+pytesseract = "*"
+paddlepaddle-gpu = ">=2.6.0"
+paddleocr = ">=2.7.0"
+paddleclas = "*"
+pymupdf = "*"
+torch = {version = "*", index = "pypi"}
+# Using secondary index for CPU torch is often safer on Windows if conflicts occur
+# but let's try pypi first and if it fails again we use the pytorch index.
+transformers = "*"
+numpy = "==1.26.4"
+torchmetrics = "*"
+pillow = "*"
+matplotlib = "*"
+tqdm = "*"
+seqeval = "*"
+torchvision = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"

@@ -1,0 +1,15 @@
+torch
+torchvision
+transformers
+paddlepaddle-gpu>=2.6.0
+paddleocr>=2.7.0
+paddleclas
+pymupdf
+pytesseract
+pillow
+matplotlib
+numpy==1.26.4
+tqdm
+seqeval
+torchmetrics
+label-studio

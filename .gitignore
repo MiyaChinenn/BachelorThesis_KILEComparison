@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches & temporary files
+.cache/
+.ipynb_checkpoints/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Large Model Weights & Checkpoints (Exceeds GitHub 100MB limit)
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.engine
+LayoutLMv3/src/model.bin
+yolov8n.pt
+train10/
+runs/
+output/
+yolo_cache/
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python package distribution / build artifacts
+build/
+dist/
+*.egg-info/
