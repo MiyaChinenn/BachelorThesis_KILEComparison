@@ -52,3 +52,17 @@
 - **Expected usage**:
   - moderate GPU VRAM consumption
   - fast token-level inference processing
+
+## 🖼️ Visualizations & Empirical Results
+
+### Training Metrics
+![LayoutLMv3 Training Metrics](./layoutlmv3-metrics.png)
+
+### Inference Comparison (Base vs. Fine-Tuned Model)
+<p float="left">
+  <img src="./layoutlmv3-base.jpg" width="49%" alt="LayoutLMv3 Base Model Output" />
+  <img src="./layoutlmv3-ft.jpg" width="49%" alt="LayoutLMv3 Fine-Tuned Model Output" />
+</p>
+
+### Evaluation Metrics
+![LayoutLMv3 Evaluation Results](./layoutlmv3-evaluation.png)

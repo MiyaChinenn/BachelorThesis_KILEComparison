@@ -50,3 +50,17 @@
 - **Expected usage**:
   - high GPU memory utilization due to high-resolution input (1664x1280)
   - fast detection inference speed
+
+## 🖼️ Visualizations & Empirical Results
+
+### Training Metrics
+![YOLOv8x Training Metrics](./yolov8x-metrics.png)
+
+### Inference Comparison (Base vs. Fine-Tuned Model)
+<p float="left">
+  <img src="./yolov8x-base.png" width="49%" alt="YOLOv8x Base Model Output" />
+  <img src="./yolov8x-ft.png" width="49%" alt="YOLOv8x Fine-Tuned Model Output" />
+</p>
+
+### Evaluation Metrics
+![YOLOv8x Evaluation Results](./yolov8x-evaluation.png)
