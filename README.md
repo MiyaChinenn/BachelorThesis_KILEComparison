@@ -11,11 +11,10 @@ This repository contains the empirical benchmark evaluation and comparison acros
 
 ## 📊 Benchmark Results
 
-### Accuracy Comparison
-![Accuracy Comparison: Text (OCR) vs. BBox (Localization)](./ComparisonBenchmark/accuracy-compare.png)
-
-### F1-Score Comparison
-![F1-Score Comparison: Text (OCR) vs. BBox (Localization)](./ComparisonBenchmark/f1-compare.png)
+<p float="left">
+  <img src="./ComparisonBenchmark/accuracy-compare.png" width="49%" alt="Accuracy Comparison: Text (OCR) vs. BBox (Localization)" />
+  <img src="./ComparisonBenchmark/f1-compare.png" width="49%" alt="F1-Score Comparison: Text (OCR) vs. BBox (Localization)" />
+</p>
 
 ---
 
