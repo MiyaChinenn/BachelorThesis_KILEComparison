@@ -68,3 +68,17 @@
   - moderate-to-high VRAM usage
   - training time depends on dataset size and number of epochs
   - more efficient than full fine-tuning
+
+## 🖼️ Visualizations & Empirical Results
+
+### Training Metrics
+![Gemma4 Training Metrics](./gemma4-metrics.png)
+
+### Inference Comparison (Base vs. Fine-Tuned Model)
+<p float="left">
+  <img src="./gemma4-base.png" width="49%" alt="Gemma4 Base Model Output" />
+  <img src="./gemma4-ft.png" width="49%" alt="Gemma4 Fine-Tuned Model Output" />
+</p>
+
+### Evaluation Metrics
+![Gemma4 Evaluation Results](./gemma4-evaluation.png)

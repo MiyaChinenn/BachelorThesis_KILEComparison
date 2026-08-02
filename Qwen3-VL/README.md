@@ -68,3 +68,17 @@
   - moderate-to-high VRAM usage
   - training time depends on dataset size and number of epochs
   - more efficient than full fine-tuning
+
+## 🖼️ Visualizations & Empirical Results
+
+### Training Metrics
+![Qwen3 Training Metrics](./qwen3-ft-metrics.png)
+
+### Inference Comparison (Base vs. Fine-Tuned Model)
+<p float="left">
+  <img src="./qwen3-base.png" width="49%" alt="Qwen3 Base Model Output" />
+  <img src="./qwen3-ft.png" width="49%" alt="Qwen3 Fine-Tuned Model Output" />
+</p>
+
+### Evaluation Metrics
+![Qwen3 Evaluation Results](./qwen3-evaluation.png)
