@@ -1,4 +1,4 @@
-# Bachelor Thesis: Invoice KILE & Localization Comparison Benchmark
+# Intelligent Document Processing Benchmarking: Performance Comparison on fine-tuned VLMs and Vision models
 
 This repository contains the empirical benchmark evaluation and comparison across four core model architectures for **Invoice Key Information Extraction (KILE)** and **Bounding Box (BBox) Localization**:
 
