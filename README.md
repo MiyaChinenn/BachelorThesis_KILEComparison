@@ -1,5 +1,15 @@
 # Bachelor Thesis: Intelligent Document Processing Benchmarking: Performance Comparison on fine-tuned VLMs and Vision models
 
+**Supervisors:**
+- **Supervisor 1**: Dr. Nguyen Tuan Cuong
+- **Supervisor 2**: Dr. Truong Dinh Huy
+
+**Presented by:**
+- Luu Danh Thanh Khoi
+- Nguyen Thien Nguyen
+
+---
+
 This repository contains the empirical benchmark evaluation and comparison across four core model architectures for **Invoice Key Information Extraction (KILE)** and **Bounding Box (BBox) Localization**:
 
 1. **Gemma4-E4B** (`google/gemma-4-E4B-it`) – Fine-tuned Vision-Language Model via Unsloth 4-bit LoRA
