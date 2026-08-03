@@ -71,7 +71,7 @@ This repository contains the empirical benchmark evaluation and comparison acros
 ## 📂 Repository Structure
 
 ```text
-BachelorThesis_ComparisonBenchmark/
+BachelorThesis_KILEComparison/
 ├── ComparisonBenchmark/            # Comparative visualization charts
 │   ├── accuracy-compare.png
 │   └── f1-compare.png
@@ -86,11 +86,12 @@ BachelorThesis_ComparisonBenchmark/
 ├── LayoutLMv3/                      # Multimodal token classification pipeline
 │   ├── README.md
 │   ├── layoutlmv3-ft.py
+│   ├── layoutlmv3-ft.ipynb
 │   ├── layoutlmv3-inference.ipynb
-│   └── src/
+│   └── layoutlmv3-eval.py
 └── YOLOv8x/                         # High-resolution object detection pipeline
     ├── README.md
     ├── yolov8x-ft.py
     ├── yolov8x-inference.ipynb
-    └── yolov8 fine-tuning/
+    └── yolov8x-eval.py
 ```
