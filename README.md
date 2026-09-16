@@ -1,4 +1,4 @@
-# Bachelor Thesis: Intelligent Document Processing Benchmarking: Performance Comparison on fine-tuned VLMs and Vision models
+# Intelligent Document Processing Benchmarking: Performance Comparison on fire-tuned VLMs and Vision models
 
 **Supervisors:**
 - **Supervisor 1**: Dr. Nguyen Tuan Cuong
@@ -7,6 +7,16 @@
 **Presented by:**
 - Luu Danh Thanh Khoi
 - Nguyen Thien Nguyen
+
+---
+
+## 📝 Abstract
+
+Extracting structured key-value fields and tabular line items from invoices is a core bottleneck in document automation. Rule parsers fail on layout shifts, and raw OCR cascades discard spatial context encoding field meaning in semi-structured documents. Document intelligence splits into two paradigms: layout-aware vision models predicting bounding coordinates directly from spatial feature maps, and generative vision-language models bypassing OCR by mapping document canvases into language embedding space. This research benchmarks four architectures: YOLOv8x with a 6-channel Chargrid stack, LayoutLMv3, Qwen3-VL-8B-Instruct, and Gemma-4-E4B-it, on a single-template invoice extraction task under the DocILE KILE and LIR evaluation protocol. Annotated single-template corporate invoices from an enterprise environment are partitioned into training and evaluation splits. All four models follow a three-phase pipeline covering DocILE annotation, parameter-efficient fine-tuning, and benchmark evaluation under unified spatial and text-matching criteria.
+
+Layout-aware vision models offer high spatial accuracy and throughput on constrained hardware. YOLOv8x achieves the best spatial localization, the smallest memory footprint and the fastest inference speed among all architectures. LayoutLMv3 achieves high text accuracy, but suffers from lower initial recall due to misalignments between the OCR tokens and the ground-truth annotations during pre-processing. We present a targeted post-processing correction to fill these gaps and achieve measurable F1 improvements without retraining the model. These visual architectures are well suited for high-throughput enterprise pipelines, but still rely on external OCR quality and fixed label taxonomies.
+
+Generative vision-language models do not require upstream OCR dependencies and enable quick schema adaption by changing prompts, but at a greater computational cost. Without an OCR stage, Gemma-4-E4B-it outperforms all benchmarked networks in terms of exact-match and field-level F1 scores, but it uses more VRAM and has higher per-page latency. We provide a four-pass instruction-partitioning strategy to solve the output sequence saturation problem. Our method eliminates the requirement for retraining and enables tiny VLM architectures to produce full schemas on token-limited hardware. Whether the enterprise prioritizes hardware efficiency and execution throughput over prompt-driven schema flexibility will ultimately determine the paradigm.
 
 ---
 
